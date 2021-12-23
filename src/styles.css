@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+}
+
+.App > h1 {
+  font-size: 35px;
+  font-weight: bolder;
+  background: #FFF;
+  color: #000;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  border: 5px solid grey;
+}
+
+.App > h1 >span {
+  font-size: 15px;
+  font-weight: bolder;
+  background: #FFF;
+  color: #000;
+
+}
+
+.App > h1 > img {
+  width: 50px;
+  margin-right: 48px;
+  margin-left: 30px;
+}
+
+.App > div > h2 {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.book {
+  display: flex;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  border: 1px solid #ccc;
+  transition: all 0.5s;
+}
+
+.book img {
+  width: 130px;
+  margin: 0 10px 0 0;
+}
+
+.customClass {
+  height: 200px;
+  width: auto;
+  background-color: black;
+}
